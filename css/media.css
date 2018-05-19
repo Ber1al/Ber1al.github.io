@@ -1,0 +1,276 @@
+@media screen and (max-width: 1200px) {
+  header nav li, .newsletter-block nav li {
+    margin-left: 2px; }
+  header nav a, .newsletter-block nav a {
+    padding: 9px 12px; }
+  .main-bg form, .newsletter-block form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .main-bg form .inp_text, .main-bg form .inp_email, .main-bg form .inp_tel, .newsletter-block form .inp_text, .newsletter-block form .inp_email, .newsletter-block form .inp_tel {
+      margin-top: 15px; }
+    .main-bg form button, .newsletter-block form button {
+      margin-top: 15px; }
+  .main-services .main-services_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .main-services .main-services_block .services_block_info {
+      text-align: center; }
+      .main-services .main-services_block .services_block_info h3 {
+        padding-top: 15px; }
+  .about-block .title_text {
+    padding-left: 50px; }
+  .works-block .step_one::after {
+    content: '';
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url("../img/arrow-1.png") no-repeat;
+    position: absolute;
+    left: 158px;
+    top: -20px; }
+  .works-block .step_two::after {
+    content: '';
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url("../img/arrow-3.png") no-repeat;
+    position: absolute;
+    left: 158px;
+    top: 65px; } }
+
+@media screen and (max-width: 994px) {
+  header nav {
+    width: 40%;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: #709dca;
+    z-index: 100;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+    header nav ul {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 10px; }
+    header nav li {
+      margin-left: 0;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      header nav li::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        opacity: .5;
+        background-color: #fff; }
+    header nav a {
+      padding: 10px 0px;
+      color: #fff;
+      font-size: 0.91rem; }
+      header nav a:hover {
+        background-color: transparent; }
+  header .show-menu {
+    display: block; }
+    header .show-menu span {
+      font-size: 3rem;
+      color: #000; }
+  header .menu-visible {
+    left: 0; }
+  .main-bg .title_text h1 {
+    line-height: 43px; }
+  .price-block .premium {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    margin: 27px 0; }
+  .works-block .step_one::after {
+    content: '';
+    display: none; }
+  .works-block .step_two::after {
+    content: '';
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .main-services {
+    padding-top: 45px;
+    padding-bottom: 100px; }
+    .main-services .main-services_block {
+      margin-top: 40px; }
+  .about-block .about-block_bg {
+    display: none;
+    background: url("../img/table.png") no-repeat center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    height: 100%; }
+  .about-block .title_text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 70px 0;
+    padding-left: 0; }
+  .price-block {
+    padding-top: 0;
+    padding-bottom: 60px;
+    background-color: #e7edf3; }
+  .newsletter-block nav ul {
+    display: none; }
+  .newsletter-block nav .line {
+    margin-top: 37px;
+    margin-bottom: 40px;
+    height: 1px;
+    background-color: #e3e7ec; }
+  .newsletter-block nav p {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 1.4375rem;
+    color: #394b50;
+    font-weight: bold; }
+    .newsletter-block nav p i {
+      font-size: 1.25rem;
+      padding-left: 5px; } }
+
+@media screen and (max-width: 576px) {
+  .title_text {
+    padding-top: 50px;
+    padding-bottom: 20px; }
+  header nav {
+    width: 70%; }
+  .main-bg .title_text, .newsletter-block .title_text {
+    padding-top: 55px;
+    padding-bottom: 33px;
+    text-align: center; }
+    .main-bg .title_text h1, .newsletter-block .title_text h1 {
+      padding-bottom: 5px; }
+    .main-bg .title_text p, .newsletter-block .title_text p {
+      color: #fff;
+      font-size: 1rem; }
+  .main-bg .slider, .newsletter-block .slider {
+    position: relative;
+    top: 65px; }
+  .main-bg .slick-dots, .newsletter-block .slick-dots {
+    display: none; }
+  .about-block .about-block_bg {
+    display: none;
+    background: url("../img/table.png") no-repeat center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    height: 100%; }
+  .about-block .title_text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 55px 17px; }
+  .works-block {
+    padding-bottom: 65px; }
+    .works-block .works-step {
+      margin-top: 58px; }
+      .works-block .works-step .step_info {
+        margin-top: 37px; }
+  .clients-block {
+    background-color: #ffc155;
+    padding-bottom: 65px; }
+    .clients-block .clients-info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .clients-block .clients-info .client-text {
+        margin-top: 17px;
+        max-width: 344px; }
+        .clients-block .clients-info .client-text p {
+          text-align: center;
+          padding: 0 7px; }
+  .newsletter-block nav ul {
+    display: none; }
+  .newsletter-block nav .line {
+    margin-top: 37px;
+    margin-bottom: 40px;
+    height: 1px;
+    background-color: #e3e7ec; }
+  .newsletter-block nav p {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 1.4375rem;
+    color: #394b50;
+    font-weight: bold; }
+    .newsletter-block nav p i {
+      font-size: 1.25rem;
+      padding-left: 5px; } }
